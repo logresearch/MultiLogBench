@@ -1,0 +1,568 @@
+{
+  "codebase_root": "codebase",
+  "languages": [
+    "java",
+    "python",
+    "go",
+    "cpp",
+    "javascript",
+    "csharp"
+  ],
+  "manifest_source": "chosen_repo.csv",
+  "postprocess": {
+    "blank_lines_collapsed": 72850,
+    "escaped_quote_samples": 396,
+    "generated_at": "2026-04-07T10:29:00+00:00",
+    "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned",
+    "postprocess_report_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/postprocess_report.json",
+    "processed_sample_files": [
+      "samples.jsonl"
+    ],
+    "raw_level_anomaly_count": 2,
+    "records": 75292,
+    "source_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2",
+    "version": "dataset_postprocess_v1"
+  },
+  "repos": [
+    {
+      "candidate_files": 171,
+      "language": "java",
+      "processed_files": 701,
+      "rejects": 4,
+      "repo_dir": "codebase/java/alibaba__canal",
+      "repo_name": "alibaba/canal",
+      "samples": 832
+    },
+    {
+      "candidate_files": 230,
+      "language": "java",
+      "processed_files": 3898,
+      "rejects": 22,
+      "repo_dir": "codebase/java/alibaba__nacos",
+      "repo_name": "alibaba/nacos",
+      "samples": 1079
+    },
+    {
+      "candidate_files": 465,
+      "language": "java",
+      "processed_files": 4040,
+      "rejects": 5,
+      "repo_dir": "codebase/java/apache__dubbo",
+      "repo_name": "apache/dubbo",
+      "samples": 1637
+    },
+    {
+      "candidate_files": 695,
+      "language": "java",
+      "processed_files": 5848,
+      "rejects": 11,
+      "repo_dir": "codebase/java/apache__kafka",
+      "repo_name": "apache/kafka",
+      "samples": 5380
+    },
+    {
+      "candidate_files": 1034,
+      "language": "java",
+      "processed_files": 6154,
+      "rejects": 10,
+      "repo_dir": "codebase/java/dbeaver__dbeaver",
+      "repo_name": "dbeaver/dbeaver",
+      "samples": 3108
+    },
+    {
+      "candidate_files": 215,
+      "language": "java",
+      "processed_files": 901,
+      "rejects": 2,
+      "repo_dir": "codebase/java/jeecgboot__JeecgBoot",
+      "repo_name": "jeecgboot/JeecgBoot",
+      "samples": 1079
+    },
+    {
+      "candidate_files": 537,
+      "language": "java",
+      "processed_files": 7741,
+      "rejects": 3,
+      "repo_dir": "codebase/java/keycloak__keycloak",
+      "repo_name": "keycloak/keycloak",
+      "samples": 1971
+    },
+    {
+      "candidate_files": 230,
+      "language": "java",
+      "processed_files": 3496,
+      "rejects": 167,
+      "repo_dir": "codebase/java/netty__netty",
+      "repo_name": "netty/netty",
+      "samples": 724
+    },
+    {
+      "candidate_files": 155,
+      "language": "java",
+      "processed_files": 13359,
+      "rejects": 8320,
+      "repo_dir": "codebase/java/openapitools__openapi-generator",
+      "repo_name": "openapitools/openapi-generator",
+      "samples": 1051
+    },
+    {
+      "candidate_files": 561,
+      "language": "java",
+      "processed_files": 9217,
+      "rejects": 19,
+      "repo_dir": "codebase/java/spring-projects__spring-framework",
+      "repo_name": "spring-projects/spring-framework",
+      "samples": 2048
+    },
+    {
+      "candidate_files": 881,
+      "language": "python",
+      "processed_files": 6924,
+      "rejects": 17,
+      "repo_dir": "codebase/python/apache__airflow",
+      "repo_name": "apache/airflow",
+      "samples": 4835
+    },
+    {
+      "candidate_files": 142,
+      "language": "python",
+      "processed_files": 317,
+      "rejects": 1,
+      "repo_dir": "codebase/python/deepfakes__faceswap",
+      "repo_name": "deepfakes/faceswap",
+      "samples": 2711
+    },
+    {
+      "candidate_files": 71,
+      "language": "python",
+      "processed_files": 497,
+      "rejects": 4,
+      "repo_dir": "codebase/python/facebookresearch__detectron2",
+      "repo_name": "facebookresearch/detectron2",
+      "samples": 272
+    },
+    {
+      "candidate_files": 111,
+      "language": "python",
+      "processed_files": 467,
+      "rejects": 3,
+      "repo_dir": "codebase/python/freqtrade__freqtrade",
+      "repo_name": "freqtrade/freqtrade",
+      "samples": 810
+    },
+    {
+      "candidate_files": 95,
+      "language": "python",
+      "processed_files": 1191,
+      "rejects": 16,
+      "repo_dir": "codebase/python/geekcomputers__python",
+      "repo_name": "geekcomputers/python",
+      "samples": 508
+    },
+    {
+      "candidate_files": 438,
+      "language": "python",
+      "processed_files": 16695,
+      "rejects": 10,
+      "repo_dir": "codebase/python/home-assistant__core",
+      "repo_name": "home-assistant/core",
+      "samples": 1801
+    },
+    {
+      "candidate_files": 455,
+      "language": "python",
+      "processed_files": 4204,
+      "rejects": 476,
+      "repo_dir": "codebase/python/huggingface__transformers",
+      "repo_name": "huggingface/transformers",
+      "samples": 2173
+    },
+    {
+      "candidate_files": 60,
+      "language": "python",
+      "processed_files": 997,
+      "rejects": 5,
+      "repo_dir": "codebase/python/jax-ml__jax",
+      "repo_name": "jax-ml/jax",
+      "samples": 255
+    },
+    {
+      "candidate_files": 665,
+      "language": "python",
+      "processed_files": 4547,
+      "rejects": 116,
+      "repo_dir": "codebase/python/ray-project__ray",
+      "repo_name": "ray-project/ray",
+      "samples": 3285
+    },
+    {
+      "candidate_files": 79,
+      "language": "python",
+      "processed_files": 445,
+      "rejects": 0,
+      "repo_dir": "codebase/python/scrapy__scrapy",
+      "repo_name": "scrapy/scrapy",
+      "samples": 203
+    },
+    {
+      "candidate_files": 174,
+      "language": "go",
+      "processed_files": 1709,
+      "rejects": 10,
+      "repo_dir": "codebase/go/aquasecurity__trivy",
+      "repo_name": "aquasecurity/trivy",
+      "samples": 581
+    },
+    {
+      "candidate_files": 233,
+      "language": "go",
+      "processed_files": 1346,
+      "rejects": 55,
+      "repo_dir": "codebase/go/ethereum__go-ethereum",
+      "repo_name": "ethereum/go-ethereum",
+      "samples": 1650
+    },
+    {
+      "candidate_files": 556,
+      "language": "go",
+      "processed_files": 2875,
+      "rejects": 13,
+      "repo_dir": "codebase/go/go-gitea__gitea",
+      "repo_name": "go-gitea/gitea",
+      "samples": 2579
+    },
+    {
+      "candidate_files": 66,
+      "language": "go",
+      "processed_files": 288,
+      "rejects": 3,
+      "repo_dir": "codebase/go/gogs__gogs",
+      "repo_name": "gogs/gogs",
+      "samples": 303
+    },
+    {
+      "candidate_files": 205,
+      "language": "go",
+      "processed_files": 10253,
+      "rejects": 497,
+      "repo_dir": "codebase/go/golang__go",
+      "repo_name": "golang/go",
+      "samples": 1124
+    },
+    {
+      "candidate_files": 555,
+      "language": "go",
+      "processed_files": 12557,
+      "rejects": 1194,
+      "repo_dir": "codebase/go/kubernetes__kubernetes",
+      "repo_name": "kubernetes/kubernetes",
+      "samples": 4982
+    },
+    {
+      "candidate_files": 318,
+      "language": "go",
+      "processed_files": 4097,
+      "rejects": 44,
+      "repo_dir": "codebase/go/pingcap__tidb",
+      "repo_name": "pingcap/tidb",
+      "samples": 3164
+    },
+    {
+      "candidate_files": 78,
+      "language": "go",
+      "processed_files": 696,
+      "rejects": 8,
+      "repo_dir": "codebase/go/prometheus__prometheus",
+      "repo_name": "prometheus/prometheus",
+      "samples": 549
+    },
+    {
+      "candidate_files": 70,
+      "language": "go",
+      "processed_files": 548,
+      "rejects": 16,
+      "repo_dir": "codebase/go/syncthing__syncthing",
+      "repo_name": "syncthing/syncthing",
+      "samples": 534
+    },
+    {
+      "candidate_files": 177,
+      "language": "go",
+      "processed_files": 738,
+      "rejects": 7,
+      "repo_dir": "codebase/go/traefik__traefik",
+      "repo_name": "traefik/traefik",
+      "samples": 976
+    },
+    {
+      "candidate_files": 300,
+      "language": "cpp",
+      "processed_files": 1079,
+      "rejects": 35,
+      "repo_dir": "codebase/cpp/apache__brpc",
+      "repo_name": "apache/brpc",
+      "samples": 2088
+    },
+    {
+      "candidate_files": 6,
+      "language": "cpp",
+      "processed_files": 1126,
+      "rejects": 1,
+      "repo_dir": "codebase/cpp/apple__foundationdb",
+      "repo_name": "apple/foundationdb",
+      "samples": 122
+    },
+    {
+      "candidate_files": 3,
+      "language": "cpp",
+      "processed_files": 3797,
+      "rejects": 81,
+      "repo_dir": "codebase/cpp/duckdb__duckdb",
+      "repo_name": "duckdb/duckdb",
+      "samples": 0
+    },
+    {
+      "candidate_files": 196,
+      "language": "cpp",
+      "processed_files": 2434,
+      "rejects": 33,
+      "repo_dir": "codebase/cpp/facebook__folly",
+      "repo_name": "facebook/folly",
+      "samples": 843
+    },
+    {
+      "candidate_files": 230,
+      "language": "cpp",
+      "processed_files": 2131,
+      "rejects": 26,
+      "repo_dir": "codebase/cpp/google__mediapipe",
+      "repo_name": "google/mediapipe",
+      "samples": 899
+    },
+    {
+      "candidate_files": 566,
+      "language": "cpp",
+      "processed_files": 4180,
+      "rejects": 916,
+      "repo_dir": "codebase/cpp/grpc__grpc",
+      "repo_name": "grpc/grpc",
+      "samples": 2895
+    },
+    {
+      "candidate_files": 15,
+      "language": "cpp",
+      "processed_files": 4218,
+      "rejects": 58,
+      "repo_dir": "codebase/cpp/opencv__opencv",
+      "repo_name": "opencv/opencv",
+      "samples": 51
+    },
+    {
+      "candidate_files": 28,
+      "language": "cpp",
+      "processed_files": 584,
+      "rejects": 4,
+      "repo_dir": "codebase/cpp/tesseract-ocr__tesseract",
+      "repo_name": "tesseract-ocr/tesseract",
+      "samples": 112
+    },
+    {
+      "candidate_files": 97,
+      "language": "cpp",
+      "processed_files": 249,
+      "rejects": 2,
+      "repo_dir": "codebase/cpp/typesense__typesense",
+      "repo_name": "typesense/typesense",
+      "samples": 849
+    },
+    {
+      "candidate_files": 457,
+      "language": "cpp",
+      "processed_files": 1635,
+      "rejects": 53,
+      "repo_dir": "codebase/cpp/vesoft-inc__nebula",
+      "repo_name": "vesoft-inc/nebula",
+      "samples": 3686
+    },
+    {
+      "candidate_files": 32,
+      "language": "javascript",
+      "processed_files": 287,
+      "rejects": 74,
+      "repo_dir": "codebase/javascript/facebook__create-react-app",
+      "repo_name": "facebook/create-react-app",
+      "samples": 314
+    },
+    {
+      "candidate_files": 404,
+      "language": "javascript",
+      "processed_files": 4343,
+      "rejects": 373,
+      "repo_dir": "codebase/javascript/facebook__react",
+      "repo_name": "facebook/react",
+      "samples": 1277
+    },
+    {
+      "candidate_files": 41,
+      "language": "javascript",
+      "processed_files": 340,
+      "rejects": 82,
+      "repo_dir": "codebase/javascript/juliangarnier__anime",
+      "repo_name": "juliangarnier/anime",
+      "samples": 80
+    },
+    {
+      "candidate_files": 67,
+      "language": "javascript",
+      "processed_files": 489,
+      "rejects": 73,
+      "repo_dir": "codebase/javascript/mozilla__pdf.js",
+      "repo_name": "mozilla/pdf.js",
+      "samples": 247
+    },
+    {
+      "candidate_files": 164,
+      "language": "javascript",
+      "processed_files": 1572,
+      "rejects": 32,
+      "repo_dir": "codebase/javascript/mrdoob__three.js",
+      "repo_name": "mrdoob/three.js",
+      "samples": 591
+    },
+    {
+      "candidate_files": 200,
+      "language": "javascript",
+      "processed_files": 2938,
+      "rejects": 191,
+      "repo_dir": "codebase/javascript/parcel-bundler__parcel",
+      "repo_name": "parcel-bundler/parcel",
+      "samples": 215
+    },
+    {
+      "candidate_files": 110,
+      "language": "javascript",
+      "processed_files": 2185,
+      "rejects": 33,
+      "repo_dir": "codebase/javascript/phaserjs__phaser",
+      "repo_name": "phaserjs/phaser",
+      "samples": 1194
+    },
+    {
+      "candidate_files": 178,
+      "language": "javascript",
+      "processed_files": 5661,
+      "rejects": 180,
+      "repo_dir": "codebase/javascript/prettier__prettier",
+      "repo_name": "prettier/prettier",
+      "samples": 180
+    },
+    {
+      "candidate_files": 108,
+      "language": "javascript",
+      "processed_files": 4662,
+      "rejects": 50,
+      "repo_dir": "codebase/javascript/tryghost__ghost",
+      "repo_name": "tryghost/ghost",
+      "samples": 345
+    },
+    {
+      "candidate_files": 233,
+      "language": "javascript",
+      "processed_files": 8378,
+      "rejects": 257,
+      "repo_dir": "codebase/javascript/webpack__webpack",
+      "repo_name": "webpack/webpack",
+      "samples": 213
+    },
+    {
+      "candidate_files": 199,
+      "language": "csharp",
+      "processed_files": 7556,
+      "rejects": 120,
+      "repo_dir": "codebase/csharp/abpframework__abp",
+      "repo_name": "abpframework/abp",
+      "samples": 795
+    },
+    {
+      "candidate_files": 190,
+      "language": "csharp",
+      "processed_files": 10259,
+      "rejects": 96,
+      "repo_dir": "codebase/csharp/dotnet__aspnetcore",
+      "repo_name": "dotnet/aspnetcore",
+      "samples": 910
+    },
+    {
+      "candidate_files": 55,
+      "language": "csharp",
+      "processed_files": 14003,
+      "rejects": 87,
+      "repo_dir": "codebase/csharp/dotnet__roslyn",
+      "repo_name": "dotnet/roslyn",
+      "samples": 187
+    },
+    {
+      "candidate_files": 78,
+      "language": "csharp",
+      "processed_files": 31786,
+      "rejects": 485,
+      "repo_dir": "codebase/csharp/dotnet__runtime",
+      "repo_name": "dotnet/runtime",
+      "samples": 467
+    },
+    {
+      "candidate_files": 51,
+      "language": "csharp",
+      "processed_files": 1090,
+      "rejects": 3,
+      "repo_dir": "codebase/csharp/files-community__files",
+      "repo_name": "files-community/files",
+      "samples": 134
+    },
+    {
+      "candidate_files": 44,
+      "language": "csharp",
+      "processed_files": 305,
+      "rejects": 5,
+      "repo_dir": "codebase/csharp/jackett__jackett",
+      "repo_name": "jackett/jackett",
+      "samples": 360
+    },
+    {
+      "candidate_files": 214,
+      "language": "csharp",
+      "processed_files": 1971,
+      "rejects": 50,
+      "repo_dir": "codebase/csharp/jellyfin__jellyfin",
+      "repo_name": "jellyfin/jellyfin",
+      "samples": 1164
+    },
+    {
+      "candidate_files": 98,
+      "language": "csharp",
+      "processed_files": 752,
+      "rejects": 22,
+      "repo_dir": "codebase/csharp/josefnemec__playnite",
+      "repo_name": "josefnemec/playnite",
+      "samples": 587
+    },
+    {
+      "candidate_files": 260,
+      "language": "csharp",
+      "processed_files": 2472,
+      "rejects": 4,
+      "repo_dir": "codebase/csharp/radarr__radarr",
+      "repo_name": "radarr/radarr",
+      "samples": 1051
+    },
+    {
+      "candidate_files": 279,
+      "language": "csharp",
+      "processed_files": 2799,
+      "rejects": 4,
+      "repo_dir": "codebase/csharp/sonarr__sonarr",
+      "repo_name": "sonarr/sonarr",
+      "samples": 1232
+    }
+  ]
+}

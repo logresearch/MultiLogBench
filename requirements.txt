@@ -1,0 +1,5 @@
+openai>=1.0.0
+google-genai>=0.8.0
+tqdm>=4.66.0
+tree-sitter==0.20.1
+tree-sitter-languages==1.10.2

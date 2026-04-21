@@ -1,0 +1,54 @@
+{
+  "accepted_pool_path": "dataset/historical/v1_full_parallel/accepted_pool.jsonl",
+  "candidate_commits_path": "dataset/historical/v1_full_parallel/candidate_commits.jsonl",
+  "history_status_summary": {
+    "fetch_status:skipped": 60,
+    "full_history_repos": 60,
+    "repos": 60,
+    "shallow_repos": 0
+  },
+  "input_root": "dataset/historical/v1_full_parallel",
+  "languages": [
+    "java",
+    "python",
+    "go",
+    "cpp",
+    "javascript",
+    "csharp"
+  ],
+  "output_root": "dataset/historical/v1_full_parallel",
+  "postprocess": {
+    "blank_lines_collapsed": 719,
+    "escaped_quote_samples": 1,
+    "generated_at": "2026-04-13T14:17:52+00:00",
+    "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned",
+    "postprocess_report_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned/postprocess_report.json",
+    "processed_sample_files": [
+      "accepted_pool.jsonl"
+    ],
+    "raw_level_anomaly_count": 0,
+    "records": 744,
+    "source_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel",
+    "version": "dataset_postprocess_v1"
+  },
+  "recovered_from_existing_pool": true,
+  "rejects_path": "dataset/historical/v1_full_parallel/rejects.jsonl",
+  "transform": {
+    "fallback": 119,
+    "generated_at": "2026-04-13T14:17:52+00:00",
+    "output_records": 744,
+    "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned_transformed_v1",
+    "processed": 744,
+    "processed_sample_files": [
+      "accepted_pool.jsonl"
+    ],
+    "rejected": 119,
+    "seed": "logging-transform-v1",
+    "selection_mode": "hash_over_applicable",
+    "source_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned",
+    "transform_rejects_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned_transformed_v1/transform_rejects.jsonl",
+    "transform_report_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned_transformed_v1/transform_report.json",
+    "transformed": 625,
+    "version": "logging_transform_v1"
+  }
+}

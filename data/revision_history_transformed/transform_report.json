@@ -1,0 +1,173 @@
+{
+  "by_language": {
+    "cpp": 23,
+    "csharp": 34,
+    "go": 108,
+    "java": 99,
+    "javascript": 54,
+    "python": 426
+  },
+  "by_language_fallback": {
+    "cpp": 13,
+    "csharp": 9,
+    "go": 5,
+    "java": 31,
+    "javascript": 43,
+    "python": 18
+  },
+  "by_language_rewritten": {
+    "cpp": 10,
+    "csharp": 25,
+    "go": 103,
+    "java": 68,
+    "javascript": 11,
+    "python": 408
+  },
+  "by_transformation": {
+    "Comment / Docstring Stripping": 253,
+    "Condition Neutral Rewrite": 164,
+    "Constant / Literal Surface Rewrite": 6,
+    "Else-if / Nested-if Normalization": 8,
+    "Parenthesis Insertion": 185,
+    "Redundant Block / Suite Normalization": 8,
+    "Ternary <-> If/Else Normalization": 1
+  },
+  "dataset_name": "historical",
+  "fallback": 119,
+  "files": {
+    "accepted_pool.jsonl": {
+      "by_language": {
+        "cpp": 23,
+        "csharp": 34,
+        "go": 108,
+        "java": 99,
+        "javascript": 54,
+        "python": 426
+      },
+      "by_language_fallback": {
+        "cpp": 13,
+        "csharp": 9,
+        "go": 5,
+        "java": 31,
+        "javascript": 43,
+        "python": 18
+      },
+      "by_language_rewritten": {
+        "cpp": 10,
+        "csharp": 25,
+        "go": 103,
+        "java": 68,
+        "javascript": 11,
+        "python": 408
+      },
+      "by_transformation": {
+        "Comment / Docstring Stripping": 253,
+        "Condition Neutral Rewrite": 164,
+        "Constant / Literal Surface Rewrite": 6,
+        "Else-if / Nested-if Normalization": 8,
+        "Parenthesis Insertion": 185,
+        "Redundant Block / Suite Normalization": 8,
+        "Ternary <-> If/Else Normalization": 1
+      },
+      "fallback": 119,
+      "output_records": 744,
+      "processed": 744,
+      "reject_reasons": {
+        "no_candidate": 69,
+        "no_valid_candidate": 6,
+        "original_target_rematch_failed": 37,
+        "parse_error_original": 7
+      },
+      "rejected": 119,
+      "transformed": 625
+    }
+  },
+  "generated_at": "2026-04-13T14:17:52+00:00",
+  "line_shift_distribution": {
+    "-1": 57,
+    "-11": 1,
+    "-2": 1,
+    "-3": 7,
+    "-4": 8,
+    "-5": 2,
+    "-6": 2,
+    "-8": 2,
+    "-9": 1,
+    "0": 542,
+    "1": 2
+  },
+  "output_records": 744,
+  "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned_transformed_v1",
+  "processed": 744,
+  "processed_sample_files": [
+    "accepted_pool.jsonl"
+  ],
+  "reject_reasons": {
+    "no_candidate": 69,
+    "no_valid_candidate": 6,
+    "original_target_rematch_failed": 37,
+    "parse_error_original": 7
+  },
+  "rejected": 119,
+  "seed": "logging-transform-v1",
+  "selection_mode": "hash_over_applicable",
+  "source_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned",
+  "supported_rule_matrix": {
+    "cpp": [
+      "Parenthesis Insertion",
+      "Constant / Literal Surface Rewrite",
+      "Condition Neutral Rewrite",
+      "Redundant Block / Suite Normalization",
+      "Comment / Docstring Stripping",
+      "Else-if / Nested-if Normalization",
+      "Ternary <-> If/Else Normalization"
+    ],
+    "csharp": [
+      "Parenthesis Insertion",
+      "Constant / Literal Surface Rewrite",
+      "Condition Neutral Rewrite",
+      "Redundant Block / Suite Normalization",
+      "Comment / Docstring Stripping",
+      "Else-if / Nested-if Normalization",
+      "Ternary <-> If/Else Normalization"
+    ],
+    "go": [
+      "Parenthesis Insertion",
+      "Constant / Literal Surface Rewrite",
+      "Condition Neutral Rewrite",
+      "Redundant Block / Suite Normalization",
+      "Comment / Docstring Stripping",
+      "Else-if / Nested-if Normalization"
+    ],
+    "java": [
+      "Parenthesis Insertion",
+      "Constant / Literal Surface Rewrite",
+      "Condition Neutral Rewrite",
+      "Redundant Block / Suite Normalization",
+      "Comment / Docstring Stripping",
+      "Else-if / Nested-if Normalization",
+      "Ternary <-> If/Else Normalization"
+    ],
+    "javascript": [
+      "Parenthesis Insertion",
+      "Constant / Literal Surface Rewrite",
+      "Condition Neutral Rewrite",
+      "Redundant Block / Suite Normalization",
+      "Comment / Docstring Stripping",
+      "Else-if / Nested-if Normalization",
+      "Ternary <-> If/Else Normalization"
+    ],
+    "python": [
+      "Parenthesis Insertion",
+      "Constant / Literal Surface Rewrite",
+      "Condition Neutral Rewrite",
+      "Redundant Block / Suite Normalization",
+      "Comment / Docstring Stripping",
+      "Else-if / Nested-if Normalization",
+      "Ternary <-> If/Else Normalization"
+    ]
+  },
+  "transform_rejects_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned_transformed_v1/transform_rejects.jsonl",
+  "transformed": 625,
+  "version": "logging_transform_v1"
+}

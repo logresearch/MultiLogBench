@@ -1,0 +1,172 @@
+{
+  "blank_lines_collapsed": 719,
+  "dataset_name": "historical",
+  "escaped_quote_samples": 1,
+  "files": {
+    "accepted_pool.jsonl": {
+      "blank_lines_collapsed": 719,
+      "escaped_quote_samples": 1,
+      "raw_level_anomalies": 0,
+      "records": 744
+    }
+  },
+  "generated_at": "2026-04-13T14:17:52+00:00",
+  "near_duplicates": {
+    "groups": 98,
+    "samples_in_groups": 243,
+    "top_groups": [
+      {
+        "count": 17,
+        "language": "python",
+        "level": "info",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 13,
+        "language": "python",
+        "level": "debug",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 9,
+        "language": "java",
+        "level": "debug",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 7,
+        "language": "python",
+        "level": "error",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 5,
+        "language": "javascript",
+        "level": "info",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 4,
+        "language": "java",
+        "level": "error",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 3,
+        "language": "python",
+        "level": "info",
+        "message_template": "Driver output location: {}",
+        "vars_count": 1
+      },
+      {
+        "count": 3,
+        "language": "javascript",
+        "level": "warn",
+        "message_template": "Texture with key '{}' not found.",
+        "vars_count": 1
+      },
+      {
+        "count": 3,
+        "language": "go",
+        "level": "info",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 3,
+        "language": "csharp",
+        "level": "warn",
+        "message_template": "Error during LoadOtherStuffAsync()",
+        "vars_count": 1
+      }
+    ]
+  },
+  "non_prod": {
+    "count": 0,
+    "share": 0.0
+  },
+  "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel_cleaned",
+  "processed_sample_files": [
+    "accepted_pool.jsonl"
+  ],
+  "raw_level_anomaly_count": 0,
+  "records": 744,
+  "repo_head_share": {
+    "top_10_repos": [
+      {
+        "count": 273,
+        "repo_name": "home-assistant/core",
+        "share": 0.366935
+      },
+      {
+        "count": 54,
+        "repo_name": "freqtrade/freqtrade",
+        "share": 0.072581
+      },
+      {
+        "count": 41,
+        "repo_name": "apache/airflow",
+        "share": 0.055108
+      },
+      {
+        "count": 41,
+        "repo_name": "kubernetes/kubernetes",
+        "share": 0.055108
+      },
+      {
+        "count": 38,
+        "repo_name": "dbeaver/dbeaver",
+        "share": 0.051075
+      },
+      {
+        "count": 30,
+        "repo_name": "phaserjs/phaser",
+        "share": 0.040323
+      },
+      {
+        "count": 28,
+        "repo_name": "pingcap/tidb",
+        "share": 0.037634
+      },
+      {
+        "count": 27,
+        "repo_name": "ray-project/ray",
+        "share": 0.03629
+      },
+      {
+        "count": 21,
+        "repo_name": "josefnemec/playnite",
+        "share": 0.028226
+      },
+      {
+        "count": 18,
+        "repo_name": "apache/kafka",
+        "share": 0.024194
+      }
+    ],
+    "top_repo": {
+      "count": 273,
+      "repo_name": "home-assistant/core",
+      "share": 0.366935
+    }
+  },
+  "source_role_distribution": {
+    "prod": 744
+  },
+  "source_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/historical/v1_full_parallel",
+  "style_distribution": {
+    "call_wrapped": 5,
+    "concat": 52,
+    "literal_only": 290,
+    "stream": 16,
+    "template_args": 312,
+    "unknown": 69
+  },
+  "version": "dataset_postprocess_v1"
+}

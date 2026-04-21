@@ -1,0 +1,2637 @@
+{
+  "source_manifest": {
+    "codebase_root": "codebase",
+    "languages": [
+      "java",
+      "python",
+      "go",
+      "cpp",
+      "javascript",
+      "csharp"
+    ],
+    "manifest_source": "chosen_repo.csv",
+    "postprocess": {
+      "blank_lines_collapsed": 72850,
+      "escaped_quote_samples": 396,
+      "generated_at": "2026-04-07T10:29:00+00:00",
+      "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned",
+      "postprocess_report_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/postprocess_report.json",
+      "processed_sample_files": [
+        "samples.jsonl"
+      ],
+      "raw_level_anomaly_count": 2,
+      "records": 75292,
+      "source_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2",
+      "version": "dataset_postprocess_v1"
+    },
+    "repos": [
+      {
+        "candidate_files": 171,
+        "language": "java",
+        "processed_files": 701,
+        "rejects": 4,
+        "repo_dir": "codebase/java/alibaba__canal",
+        "repo_name": "alibaba/canal",
+        "samples": 832
+      },
+      {
+        "candidate_files": 230,
+        "language": "java",
+        "processed_files": 3898,
+        "rejects": 22,
+        "repo_dir": "codebase/java/alibaba__nacos",
+        "repo_name": "alibaba/nacos",
+        "samples": 1079
+      },
+      {
+        "candidate_files": 465,
+        "language": "java",
+        "processed_files": 4040,
+        "rejects": 5,
+        "repo_dir": "codebase/java/apache__dubbo",
+        "repo_name": "apache/dubbo",
+        "samples": 1637
+      },
+      {
+        "candidate_files": 695,
+        "language": "java",
+        "processed_files": 5848,
+        "rejects": 11,
+        "repo_dir": "codebase/java/apache__kafka",
+        "repo_name": "apache/kafka",
+        "samples": 5380
+      },
+      {
+        "candidate_files": 1034,
+        "language": "java",
+        "processed_files": 6154,
+        "rejects": 10,
+        "repo_dir": "codebase/java/dbeaver__dbeaver",
+        "repo_name": "dbeaver/dbeaver",
+        "samples": 3108
+      },
+      {
+        "candidate_files": 215,
+        "language": "java",
+        "processed_files": 901,
+        "rejects": 2,
+        "repo_dir": "codebase/java/jeecgboot__JeecgBoot",
+        "repo_name": "jeecgboot/JeecgBoot",
+        "samples": 1079
+      },
+      {
+        "candidate_files": 537,
+        "language": "java",
+        "processed_files": 7741,
+        "rejects": 3,
+        "repo_dir": "codebase/java/keycloak__keycloak",
+        "repo_name": "keycloak/keycloak",
+        "samples": 1971
+      },
+      {
+        "candidate_files": 230,
+        "language": "java",
+        "processed_files": 3496,
+        "rejects": 167,
+        "repo_dir": "codebase/java/netty__netty",
+        "repo_name": "netty/netty",
+        "samples": 724
+      },
+      {
+        "candidate_files": 155,
+        "language": "java",
+        "processed_files": 13359,
+        "rejects": 8320,
+        "repo_dir": "codebase/java/openapitools__openapi-generator",
+        "repo_name": "openapitools/openapi-generator",
+        "samples": 1051
+      },
+      {
+        "candidate_files": 561,
+        "language": "java",
+        "processed_files": 9217,
+        "rejects": 19,
+        "repo_dir": "codebase/java/spring-projects__spring-framework",
+        "repo_name": "spring-projects/spring-framework",
+        "samples": 2048
+      },
+      {
+        "candidate_files": 881,
+        "language": "python",
+        "processed_files": 6924,
+        "rejects": 17,
+        "repo_dir": "codebase/python/apache__airflow",
+        "repo_name": "apache/airflow",
+        "samples": 4835
+      },
+      {
+        "candidate_files": 142,
+        "language": "python",
+        "processed_files": 317,
+        "rejects": 1,
+        "repo_dir": "codebase/python/deepfakes__faceswap",
+        "repo_name": "deepfakes/faceswap",
+        "samples": 2711
+      },
+      {
+        "candidate_files": 71,
+        "language": "python",
+        "processed_files": 497,
+        "rejects": 4,
+        "repo_dir": "codebase/python/facebookresearch__detectron2",
+        "repo_name": "facebookresearch/detectron2",
+        "samples": 272
+      },
+      {
+        "candidate_files": 111,
+        "language": "python",
+        "processed_files": 467,
+        "rejects": 3,
+        "repo_dir": "codebase/python/freqtrade__freqtrade",
+        "repo_name": "freqtrade/freqtrade",
+        "samples": 810
+      },
+      {
+        "candidate_files": 95,
+        "language": "python",
+        "processed_files": 1191,
+        "rejects": 16,
+        "repo_dir": "codebase/python/geekcomputers__python",
+        "repo_name": "geekcomputers/python",
+        "samples": 508
+      },
+      {
+        "candidate_files": 438,
+        "language": "python",
+        "processed_files": 16695,
+        "rejects": 10,
+        "repo_dir": "codebase/python/home-assistant__core",
+        "repo_name": "home-assistant/core",
+        "samples": 1801
+      },
+      {
+        "candidate_files": 455,
+        "language": "python",
+        "processed_files": 4204,
+        "rejects": 476,
+        "repo_dir": "codebase/python/huggingface__transformers",
+        "repo_name": "huggingface/transformers",
+        "samples": 2173
+      },
+      {
+        "candidate_files": 60,
+        "language": "python",
+        "processed_files": 997,
+        "rejects": 5,
+        "repo_dir": "codebase/python/jax-ml__jax",
+        "repo_name": "jax-ml/jax",
+        "samples": 255
+      },
+      {
+        "candidate_files": 665,
+        "language": "python",
+        "processed_files": 4547,
+        "rejects": 116,
+        "repo_dir": "codebase/python/ray-project__ray",
+        "repo_name": "ray-project/ray",
+        "samples": 3285
+      },
+      {
+        "candidate_files": 79,
+        "language": "python",
+        "processed_files": 445,
+        "rejects": 0,
+        "repo_dir": "codebase/python/scrapy__scrapy",
+        "repo_name": "scrapy/scrapy",
+        "samples": 203
+      },
+      {
+        "candidate_files": 174,
+        "language": "go",
+        "processed_files": 1709,
+        "rejects": 10,
+        "repo_dir": "codebase/go/aquasecurity__trivy",
+        "repo_name": "aquasecurity/trivy",
+        "samples": 581
+      },
+      {
+        "candidate_files": 233,
+        "language": "go",
+        "processed_files": 1346,
+        "rejects": 55,
+        "repo_dir": "codebase/go/ethereum__go-ethereum",
+        "repo_name": "ethereum/go-ethereum",
+        "samples": 1650
+      },
+      {
+        "candidate_files": 556,
+        "language": "go",
+        "processed_files": 2875,
+        "rejects": 13,
+        "repo_dir": "codebase/go/go-gitea__gitea",
+        "repo_name": "go-gitea/gitea",
+        "samples": 2579
+      },
+      {
+        "candidate_files": 66,
+        "language": "go",
+        "processed_files": 288,
+        "rejects": 3,
+        "repo_dir": "codebase/go/gogs__gogs",
+        "repo_name": "gogs/gogs",
+        "samples": 303
+      },
+      {
+        "candidate_files": 205,
+        "language": "go",
+        "processed_files": 10253,
+        "rejects": 497,
+        "repo_dir": "codebase/go/golang__go",
+        "repo_name": "golang/go",
+        "samples": 1124
+      },
+      {
+        "candidate_files": 555,
+        "language": "go",
+        "processed_files": 12557,
+        "rejects": 1194,
+        "repo_dir": "codebase/go/kubernetes__kubernetes",
+        "repo_name": "kubernetes/kubernetes",
+        "samples": 4982
+      },
+      {
+        "candidate_files": 318,
+        "language": "go",
+        "processed_files": 4097,
+        "rejects": 44,
+        "repo_dir": "codebase/go/pingcap__tidb",
+        "repo_name": "pingcap/tidb",
+        "samples": 3164
+      },
+      {
+        "candidate_files": 78,
+        "language": "go",
+        "processed_files": 696,
+        "rejects": 8,
+        "repo_dir": "codebase/go/prometheus__prometheus",
+        "repo_name": "prometheus/prometheus",
+        "samples": 549
+      },
+      {
+        "candidate_files": 70,
+        "language": "go",
+        "processed_files": 548,
+        "rejects": 16,
+        "repo_dir": "codebase/go/syncthing__syncthing",
+        "repo_name": "syncthing/syncthing",
+        "samples": 534
+      },
+      {
+        "candidate_files": 177,
+        "language": "go",
+        "processed_files": 738,
+        "rejects": 7,
+        "repo_dir": "codebase/go/traefik__traefik",
+        "repo_name": "traefik/traefik",
+        "samples": 976
+      },
+      {
+        "candidate_files": 300,
+        "language": "cpp",
+        "processed_files": 1079,
+        "rejects": 35,
+        "repo_dir": "codebase/cpp/apache__brpc",
+        "repo_name": "apache/brpc",
+        "samples": 2088
+      },
+      {
+        "candidate_files": 6,
+        "language": "cpp",
+        "processed_files": 1126,
+        "rejects": 1,
+        "repo_dir": "codebase/cpp/apple__foundationdb",
+        "repo_name": "apple/foundationdb",
+        "samples": 122
+      },
+      {
+        "candidate_files": 3,
+        "language": "cpp",
+        "processed_files": 3797,
+        "rejects": 81,
+        "repo_dir": "codebase/cpp/duckdb__duckdb",
+        "repo_name": "duckdb/duckdb",
+        "samples": 0
+      },
+      {
+        "candidate_files": 196,
+        "language": "cpp",
+        "processed_files": 2434,
+        "rejects": 33,
+        "repo_dir": "codebase/cpp/facebook__folly",
+        "repo_name": "facebook/folly",
+        "samples": 843
+      },
+      {
+        "candidate_files": 230,
+        "language": "cpp",
+        "processed_files": 2131,
+        "rejects": 26,
+        "repo_dir": "codebase/cpp/google__mediapipe",
+        "repo_name": "google/mediapipe",
+        "samples": 899
+      },
+      {
+        "candidate_files": 566,
+        "language": "cpp",
+        "processed_files": 4180,
+        "rejects": 916,
+        "repo_dir": "codebase/cpp/grpc__grpc",
+        "repo_name": "grpc/grpc",
+        "samples": 2895
+      },
+      {
+        "candidate_files": 15,
+        "language": "cpp",
+        "processed_files": 4218,
+        "rejects": 58,
+        "repo_dir": "codebase/cpp/opencv__opencv",
+        "repo_name": "opencv/opencv",
+        "samples": 51
+      },
+      {
+        "candidate_files": 28,
+        "language": "cpp",
+        "processed_files": 584,
+        "rejects": 4,
+        "repo_dir": "codebase/cpp/tesseract-ocr__tesseract",
+        "repo_name": "tesseract-ocr/tesseract",
+        "samples": 112
+      },
+      {
+        "candidate_files": 97,
+        "language": "cpp",
+        "processed_files": 249,
+        "rejects": 2,
+        "repo_dir": "codebase/cpp/typesense__typesense",
+        "repo_name": "typesense/typesense",
+        "samples": 849
+      },
+      {
+        "candidate_files": 457,
+        "language": "cpp",
+        "processed_files": 1635,
+        "rejects": 53,
+        "repo_dir": "codebase/cpp/vesoft-inc__nebula",
+        "repo_name": "vesoft-inc/nebula",
+        "samples": 3686
+      },
+      {
+        "candidate_files": 32,
+        "language": "javascript",
+        "processed_files": 287,
+        "rejects": 74,
+        "repo_dir": "codebase/javascript/facebook__create-react-app",
+        "repo_name": "facebook/create-react-app",
+        "samples": 314
+      },
+      {
+        "candidate_files": 404,
+        "language": "javascript",
+        "processed_files": 4343,
+        "rejects": 373,
+        "repo_dir": "codebase/javascript/facebook__react",
+        "repo_name": "facebook/react",
+        "samples": 1277
+      },
+      {
+        "candidate_files": 41,
+        "language": "javascript",
+        "processed_files": 340,
+        "rejects": 82,
+        "repo_dir": "codebase/javascript/juliangarnier__anime",
+        "repo_name": "juliangarnier/anime",
+        "samples": 80
+      },
+      {
+        "candidate_files": 67,
+        "language": "javascript",
+        "processed_files": 489,
+        "rejects": 73,
+        "repo_dir": "codebase/javascript/mozilla__pdf.js",
+        "repo_name": "mozilla/pdf.js",
+        "samples": 247
+      },
+      {
+        "candidate_files": 164,
+        "language": "javascript",
+        "processed_files": 1572,
+        "rejects": 32,
+        "repo_dir": "codebase/javascript/mrdoob__three.js",
+        "repo_name": "mrdoob/three.js",
+        "samples": 591
+      },
+      {
+        "candidate_files": 200,
+        "language": "javascript",
+        "processed_files": 2938,
+        "rejects": 191,
+        "repo_dir": "codebase/javascript/parcel-bundler__parcel",
+        "repo_name": "parcel-bundler/parcel",
+        "samples": 215
+      },
+      {
+        "candidate_files": 110,
+        "language": "javascript",
+        "processed_files": 2185,
+        "rejects": 33,
+        "repo_dir": "codebase/javascript/phaserjs__phaser",
+        "repo_name": "phaserjs/phaser",
+        "samples": 1194
+      },
+      {
+        "candidate_files": 178,
+        "language": "javascript",
+        "processed_files": 5661,
+        "rejects": 180,
+        "repo_dir": "codebase/javascript/prettier__prettier",
+        "repo_name": "prettier/prettier",
+        "samples": 180
+      },
+      {
+        "candidate_files": 108,
+        "language": "javascript",
+        "processed_files": 4662,
+        "rejects": 50,
+        "repo_dir": "codebase/javascript/tryghost__ghost",
+        "repo_name": "tryghost/ghost",
+        "samples": 345
+      },
+      {
+        "candidate_files": 233,
+        "language": "javascript",
+        "processed_files": 8378,
+        "rejects": 257,
+        "repo_dir": "codebase/javascript/webpack__webpack",
+        "repo_name": "webpack/webpack",
+        "samples": 213
+      },
+      {
+        "candidate_files": 199,
+        "language": "csharp",
+        "processed_files": 7556,
+        "rejects": 120,
+        "repo_dir": "codebase/csharp/abpframework__abp",
+        "repo_name": "abpframework/abp",
+        "samples": 795
+      },
+      {
+        "candidate_files": 190,
+        "language": "csharp",
+        "processed_files": 10259,
+        "rejects": 96,
+        "repo_dir": "codebase/csharp/dotnet__aspnetcore",
+        "repo_name": "dotnet/aspnetcore",
+        "samples": 910
+      },
+      {
+        "candidate_files": 55,
+        "language": "csharp",
+        "processed_files": 14003,
+        "rejects": 87,
+        "repo_dir": "codebase/csharp/dotnet__roslyn",
+        "repo_name": "dotnet/roslyn",
+        "samples": 187
+      },
+      {
+        "candidate_files": 78,
+        "language": "csharp",
+        "processed_files": 31786,
+        "rejects": 485,
+        "repo_dir": "codebase/csharp/dotnet__runtime",
+        "repo_name": "dotnet/runtime",
+        "samples": 467
+      },
+      {
+        "candidate_files": 51,
+        "language": "csharp",
+        "processed_files": 1090,
+        "rejects": 3,
+        "repo_dir": "codebase/csharp/files-community__files",
+        "repo_name": "files-community/files",
+        "samples": 134
+      },
+      {
+        "candidate_files": 44,
+        "language": "csharp",
+        "processed_files": 305,
+        "rejects": 5,
+        "repo_dir": "codebase/csharp/jackett__jackett",
+        "repo_name": "jackett/jackett",
+        "samples": 360
+      },
+      {
+        "candidate_files": 214,
+        "language": "csharp",
+        "processed_files": 1971,
+        "rejects": 50,
+        "repo_dir": "codebase/csharp/jellyfin__jellyfin",
+        "repo_name": "jellyfin/jellyfin",
+        "samples": 1164
+      },
+      {
+        "candidate_files": 98,
+        "language": "csharp",
+        "processed_files": 752,
+        "rejects": 22,
+        "repo_dir": "codebase/csharp/josefnemec__playnite",
+        "repo_name": "josefnemec/playnite",
+        "samples": 587
+      },
+      {
+        "candidate_files": 260,
+        "language": "csharp",
+        "processed_files": 2472,
+        "rejects": 4,
+        "repo_dir": "codebase/csharp/radarr__radarr",
+        "repo_name": "radarr/radarr",
+        "samples": 1051
+      },
+      {
+        "candidate_files": 279,
+        "language": "csharp",
+        "processed_files": 2799,
+        "rejects": 4,
+        "repo_dir": "codebase/csharp/sonarr__sonarr",
+        "repo_name": "sonarr/sonarr",
+        "samples": 1232
+      }
+    ]
+  },
+  "source_stats": {
+    "by_framework": {
+      "console": 4460,
+      "generic-cpp-logger": 201,
+      "generic-csharp-logger": 3306,
+      "generic-js-logger": 196,
+      "generic-logger": 5951,
+      "glog-like": 11344,
+      "klog": 1208,
+      "microsoft-extensions-logging": 3494,
+      "python-logging": 16853,
+      "serilog-like": 87,
+      "slf4j-like": 18909,
+      "slog": 415,
+      "stdlib-log": 6492,
+      "zap": 2376
+    },
+    "by_language": {
+      "cpp": 11545,
+      "csharp": 6887,
+      "go": 16442,
+      "java": 18909,
+      "javascript": 4656,
+      "python": 16853
+    },
+    "by_repo": {
+      "abpframework/abp": 795,
+      "alibaba/canal": 832,
+      "alibaba/nacos": 1079,
+      "apache/airflow": 4835,
+      "apache/brpc": 2088,
+      "apache/dubbo": 1637,
+      "apache/kafka": 5380,
+      "apple/foundationdb": 122,
+      "aquasecurity/trivy": 581,
+      "dbeaver/dbeaver": 3108,
+      "deepfakes/faceswap": 2711,
+      "dotnet/aspnetcore": 910,
+      "dotnet/roslyn": 187,
+      "dotnet/runtime": 467,
+      "duckdb/duckdb": 0,
+      "ethereum/go-ethereum": 1650,
+      "facebook/create-react-app": 314,
+      "facebook/folly": 843,
+      "facebook/react": 1277,
+      "facebookresearch/detectron2": 272,
+      "files-community/files": 134,
+      "freqtrade/freqtrade": 810,
+      "geekcomputers/python": 508,
+      "go-gitea/gitea": 2579,
+      "gogs/gogs": 303,
+      "golang/go": 1124,
+      "google/mediapipe": 899,
+      "grpc/grpc": 2895,
+      "home-assistant/core": 1801,
+      "huggingface/transformers": 2173,
+      "jackett/jackett": 360,
+      "jax-ml/jax": 255,
+      "jeecgboot/JeecgBoot": 1079,
+      "jellyfin/jellyfin": 1164,
+      "josefnemec/playnite": 587,
+      "juliangarnier/anime": 80,
+      "keycloak/keycloak": 1971,
+      "kubernetes/kubernetes": 4982,
+      "mozilla/pdf.js": 247,
+      "mrdoob/three.js": 591,
+      "netty/netty": 724,
+      "openapitools/openapi-generator": 1051,
+      "opencv/opencv": 51,
+      "parcel-bundler/parcel": 215,
+      "phaserjs/phaser": 1194,
+      "pingcap/tidb": 3164,
+      "prettier/prettier": 180,
+      "prometheus/prometheus": 549,
+      "radarr/radarr": 1051,
+      "ray-project/ray": 3285,
+      "scrapy/scrapy": 203,
+      "sonarr/sonarr": 1232,
+      "spring-projects/spring-framework": 2048,
+      "syncthing/syncthing": 534,
+      "tesseract-ocr/tesseract": 112,
+      "traefik/traefik": 976,
+      "tryghost/ghost": 345,
+      "typesense/typesense": 849,
+      "vesoft-inc/nebula": 3686,
+      "webpack/webpack": 213
+    },
+    "by_source_role": {
+      "doc": 145,
+      "example": 1557,
+      "prod": 63965,
+      "sample": 209,
+      "test": 9416
+    },
+    "postprocess": {
+      "blank_lines_collapsed": 72850,
+      "escaped_quote_samples": 396,
+      "generated_at": "2026-04-07T10:29:00+00:00",
+      "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned",
+      "postprocess_report_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/postprocess_report.json",
+      "processed_sample_files": [
+        "samples.jsonl"
+      ],
+      "raw_level_anomaly_count": 2,
+      "records": 75292,
+      "source_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2",
+      "version": "dataset_postprocess_v1"
+    },
+    "rejects": 14488,
+    "samples": 75292
+  },
+  "split": {
+    "distribution_deviation": {
+      "by_language": {
+        "cpp": {
+          "source": {
+            "count": 7039,
+            "share": 0.110045
+          },
+          "splits": {
+            "test": {
+              "count": 697,
+              "share": 0.108584,
+              "share_diff_vs_source": 0.001461
+            },
+            "train": {
+              "count": 5643,
+              "share": 0.110387,
+              "share_diff_vs_source": 0.000342
+            },
+            "valid": {
+              "count": 699,
+              "share": 0.108777,
+              "share_diff_vs_source": 0.001268
+            }
+          }
+        },
+        "csharp": {
+          "source": {
+            "count": 5974,
+            "share": 0.093395
+          },
+          "splits": {
+            "test": {
+              "count": 606,
+              "share": 0.094407,
+              "share_diff_vs_source": 0.001012
+            },
+            "train": {
+              "count": 4765,
+              "share": 0.093212,
+              "share_diff_vs_source": 0.000183
+            },
+            "valid": {
+              "count": 603,
+              "share": 0.093838,
+              "share_diff_vs_source": 0.000443
+            }
+          }
+        },
+        "go": {
+          "source": {
+            "count": 14921,
+            "share": 0.233268
+          },
+          "splits": {
+            "test": {
+              "count": 1492,
+              "share": 0.232435,
+              "share_diff_vs_source": 0.000833
+            },
+            "train": {
+              "count": 11927,
+              "share": 0.233314,
+              "share_diff_vs_source": 4.6e-05
+            },
+            "valid": {
+              "count": 1502,
+              "share": 0.233738,
+              "share_diff_vs_source": 0.00047
+            }
+          }
+        },
+        "java": {
+          "source": {
+            "count": 16794,
+            "share": 0.26255
+          },
+          "splits": {
+            "test": {
+              "count": 1680,
+              "share": 0.261723,
+              "share_diff_vs_source": 0.000827
+            },
+            "train": {
+              "count": 13426,
+              "share": 0.262637,
+              "share_diff_vs_source": 8.7e-05
+            },
+            "valid": {
+              "count": 1688,
+              "share": 0.262683,
+              "share_diff_vs_source": 0.000133
+            }
+          }
+        },
+        "javascript": {
+          "source": {
+            "count": 3579,
+            "share": 0.055952
+          },
+          "splits": {
+            "test": {
+              "count": 358,
+              "share": 0.055772,
+              "share_diff_vs_source": 0.00018
+            },
+            "train": {
+              "count": 2853,
+              "share": 0.05581,
+              "share_diff_vs_source": 0.000142
+            },
+            "valid": {
+              "count": 368,
+              "share": 0.057267,
+              "share_diff_vs_source": 0.001315
+            }
+          }
+        },
+        "python": {
+          "source": {
+            "count": 15658,
+            "share": 0.24479
+          },
+          "splits": {
+            "test": {
+              "count": 1586,
+              "share": 0.247079,
+              "share_diff_vs_source": 0.002289
+            },
+            "train": {
+              "count": 12506,
+              "share": 0.24464,
+              "share_diff_vs_source": 0.00015
+            },
+            "valid": {
+              "count": 1566,
+              "share": 0.243697,
+              "share_diff_vs_source": 0.001093
+            }
+          }
+        }
+      },
+      "by_level": {
+        "debug": {
+          "source": {
+            "count": 14808,
+            "share": 0.231502
+          },
+          "splits": {
+            "test": {
+              "count": 1566,
+              "share": 0.243963,
+              "share_diff_vs_source": 0.012461
+            },
+            "train": {
+              "count": 11722,
+              "share": 0.229304,
+              "share_diff_vs_source": 0.002198
+            },
+            "valid": {
+              "count": 1520,
+              "share": 0.236539,
+              "share_diff_vs_source": 0.005037
+            }
+          }
+        },
+        "error": {
+          "source": {
+            "count": 15969,
+            "share": 0.249652
+          },
+          "splits": {
+            "test": {
+              "count": 1568,
+              "share": 0.244275,
+              "share_diff_vs_source": 0.005377
+            },
+            "train": {
+              "count": 12779,
+              "share": 0.24998,
+              "share_diff_vs_source": 0.000328
+            },
+            "valid": {
+              "count": 1622,
+              "share": 0.252412,
+              "share_diff_vs_source": 0.00276
+            }
+          }
+        },
+        "fatal": {
+          "source": {
+            "count": 1915,
+            "share": 0.029938
+          },
+          "splits": {
+            "test": {
+              "count": 149,
+              "share": 0.023212,
+              "share_diff_vs_source": 0.006726
+            },
+            "train": {
+              "count": 1593,
+              "share": 0.031162,
+              "share_diff_vs_source": 0.001224
+            },
+            "valid": {
+              "count": 173,
+              "share": 0.026922,
+              "share_diff_vs_source": 0.003016
+            }
+          }
+        },
+        "info": {
+          "source": {
+            "count": 19083,
+            "share": 0.298335
+          },
+          "splits": {
+            "test": {
+              "count": 1939,
+              "share": 0.302072,
+              "share_diff_vs_source": 0.003737
+            },
+            "train": {
+              "count": 15256,
+              "share": 0.298435,
+              "share_diff_vs_source": 0.0001
+            },
+            "valid": {
+              "count": 1888,
+              "share": 0.293806,
+              "share_diff_vs_source": 0.004529
+            }
+          }
+        },
+        "other": {
+          "source": {
+            "count": 2,
+            "share": 3.1e-05
+          },
+          "splits": {
+            "test": {
+              "count": 0,
+              "share": 0.0,
+              "share_diff_vs_source": 3.1e-05
+            },
+            "train": {
+              "count": 2,
+              "share": 3.9e-05,
+              "share_diff_vs_source": 8e-06
+            },
+            "valid": {
+              "count": 0,
+              "share": 0.0,
+              "share_diff_vs_source": 3.1e-05
+            }
+          }
+        },
+        "trace": {
+          "source": {
+            "count": 1493,
+            "share": 0.023341
+          },
+          "splits": {
+            "test": {
+              "count": 144,
+              "share": 0.022433,
+              "share_diff_vs_source": 0.000908
+            },
+            "train": {
+              "count": 1206,
+              "share": 0.023592,
+              "share_diff_vs_source": 0.000251
+            },
+            "valid": {
+              "count": 143,
+              "share": 0.022253,
+              "share_diff_vs_source": 0.001088
+            }
+          }
+        },
+        "warn": {
+          "source": {
+            "count": 10695,
+            "share": 0.167201
+          },
+          "splits": {
+            "test": {
+              "count": 1053,
+              "share": 0.164044,
+              "share_diff_vs_source": 0.003157
+            },
+            "train": {
+              "count": 8562,
+              "share": 0.167488,
+              "share_diff_vs_source": 0.000287
+            },
+            "valid": {
+              "count": 1080,
+              "share": 0.168067,
+              "share_diff_vs_source": 0.000866
+            }
+          }
+        }
+      },
+      "by_repo": {
+        "abpframework/abp": {
+          "files": 186,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.000662,
+            "train": 0.0,
+            "valid": 0.000662
+          },
+          "reason": null,
+          "samples": 755,
+          "split_counts": {
+            "test": 76,
+            "train": 604,
+            "valid": 75
+          },
+          "split_file_counts": {
+            "test": 7,
+            "train": 167,
+            "valid": 12
+          },
+          "split_shares": {
+            "test": 0.100662,
+            "train": 0.8,
+            "valid": 0.099338
+          },
+          "splittable": true
+        },
+        "alibaba/canal": {
+          "files": 159,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 0.000785,
+            "train": 0.000262,
+            "valid": 0.000524
+          },
+          "reason": null,
+          "samples": 764,
+          "split_counts": {
+            "test": 77,
+            "train": 611,
+            "valid": 76
+          },
+          "split_file_counts": {
+            "test": 8,
+            "train": 143,
+            "valid": 8
+          },
+          "split_shares": {
+            "test": 0.100785,
+            "train": 0.799738,
+            "valid": 0.099476
+          },
+          "splittable": true
+        },
+        "alibaba/nacos": {
+          "files": 226,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 0.000279,
+            "train": 0.000557,
+            "valid": 0.000279
+          },
+          "reason": null,
+          "samples": 1077,
+          "split_counts": {
+            "test": 108,
+            "train": 861,
+            "valid": 108
+          },
+          "split_file_counts": {
+            "test": 9,
+            "train": 205,
+            "valid": 12
+          },
+          "split_shares": {
+            "test": 0.100279,
+            "train": 0.799443,
+            "valid": 0.100279
+          },
+          "splittable": true
+        },
+        "apache/airflow": {
+          "files": 644,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 0.000127,
+            "train": 4.2e-05,
+            "valid": 8.5e-05
+          },
+          "reason": null,
+          "samples": 4716,
+          "split_counts": {
+            "test": 471,
+            "train": 3773,
+            "valid": 472
+          },
+          "split_file_counts": {
+            "test": 13,
+            "train": 614,
+            "valid": 17
+          },
+          "split_shares": {
+            "test": 0.099873,
+            "train": 0.800042,
+            "valid": 0.100085
+          },
+          "splittable": true
+        },
+        "apache/brpc": {
+          "files": 169,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 0.000436,
+            "train": 0.000145,
+            "valid": 0.000291
+          },
+          "reason": null,
+          "samples": 1376,
+          "split_counts": {
+            "test": 137,
+            "train": 1101,
+            "valid": 138
+          },
+          "split_file_counts": {
+            "test": 7,
+            "train": 155,
+            "valid": 7
+          },
+          "split_shares": {
+            "test": 0.099564,
+            "train": 0.800145,
+            "valid": 0.100291
+          },
+          "splittable": true
+        },
+        "apache/dubbo": {
+          "files": 355,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 0.000155,
+            "train": 0.00031,
+            "valid": 0.000155
+          },
+          "reason": null,
+          "samples": 1292,
+          "split_counts": {
+            "test": 129,
+            "train": 1034,
+            "valid": 129
+          },
+          "split_file_counts": {
+            "test": 10,
+            "train": 332,
+            "valid": 13
+          },
+          "split_shares": {
+            "test": 0.099845,
+            "train": 0.80031,
+            "valid": 0.099845
+          },
+          "splittable": true
+        },
+        "apache/kafka": {
+          "files": 602,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 4e-05,
+            "train": 8.1e-05,
+            "valid": 4e-05
+          },
+          "reason": null,
+          "samples": 4968,
+          "split_counts": {
+            "test": 497,
+            "train": 3974,
+            "valid": 497
+          },
+          "split_file_counts": {
+            "test": 18,
+            "train": 568,
+            "valid": 16
+          },
+          "split_shares": {
+            "test": 0.10004,
+            "train": 0.799919,
+            "valid": 0.10004
+          },
+          "splittable": true
+        },
+        "apple/foundationdb": {
+          "files": 1,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 0.1,
+            "train": 0.2,
+            "valid": 0.1
+          },
+          "reason": "insufficient_files",
+          "samples": 15,
+          "split_counts": {
+            "test": 0,
+            "train": 15,
+            "valid": 0
+          },
+          "split_file_counts": {
+            "test": 0,
+            "train": 1,
+            "valid": 0
+          },
+          "split_shares": {
+            "test": 0.0,
+            "train": 1.0,
+            "valid": 0.0
+          },
+          "splittable": false
+        },
+        "aquasecurity/trivy": {
+          "files": 172,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 0.000529,
+            "train": 0.001058,
+            "valid": 0.000529
+          },
+          "reason": null,
+          "samples": 567,
+          "split_counts": {
+            "test": 57,
+            "train": 453,
+            "valid": 57
+          },
+          "split_file_counts": {
+            "test": 9,
+            "train": 153,
+            "valid": 10
+          },
+          "split_shares": {
+            "test": 0.100529,
+            "train": 0.798942,
+            "valid": 0.100529
+          },
+          "splittable": true
+        },
+        "dbeaver/dbeaver": {
+          "files": 1016,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 0.000193,
+            "train": 6.4e-05,
+            "valid": 0.000129
+          },
+          "reason": null,
+          "samples": 3104,
+          "split_counts": {
+            "test": 311,
+            "train": 2483,
+            "valid": 310
+          },
+          "split_file_counts": {
+            "test": 23,
+            "train": 967,
+            "valid": 26
+          },
+          "split_shares": {
+            "test": 0.100193,
+            "train": 0.799936,
+            "valid": 0.099871
+          },
+          "splittable": true
+        },
+        "deepfakes/faceswap": {
+          "files": 142,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 3.7e-05,
+            "train": 7.4e-05,
+            "valid": 3.7e-05
+          },
+          "reason": null,
+          "samples": 2711,
+          "split_counts": {
+            "test": 271,
+            "train": 2169,
+            "valid": 271
+          },
+          "split_file_counts": {
+            "test": 7,
+            "train": 125,
+            "valid": 10
+          },
+          "split_shares": {
+            "test": 0.099963,
+            "train": 0.800074,
+            "valid": 0.099963
+          },
+          "splittable": true
+        },
+        "dotnet/aspnetcore": {
+          "files": 93,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.001083,
+            "train": 0.002166,
+            "valid": 0.001083
+          },
+          "reason": null,
+          "samples": 277,
+          "split_counts": {
+            "test": 28,
+            "train": 221,
+            "valid": 28
+          },
+          "split_file_counts": {
+            "test": 7,
+            "train": 80,
+            "valid": 6
+          },
+          "split_shares": {
+            "test": 0.101083,
+            "train": 0.797834,
+            "valid": 0.101083
+          },
+          "splittable": true
+        },
+        "dotnet/roslyn": {
+          "files": 50,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.000552,
+            "train": 0.037569,
+            "valid": 0.038122
+          },
+          "reason": null,
+          "samples": 181,
+          "split_counts": {
+            "test": 18,
+            "train": 138,
+            "valid": 25
+          },
+          "split_file_counts": {
+            "test": 3,
+            "train": 46,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.099448,
+            "train": 0.762431,
+            "valid": 0.138122
+          },
+          "splittable": true
+        },
+        "dotnet/runtime": {
+          "files": 45,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.020172,
+            "train": 0.018884,
+            "valid": 0.001288
+          },
+          "reason": null,
+          "samples": 233,
+          "split_counts": {
+            "test": 28,
+            "train": 182,
+            "valid": 23
+          },
+          "split_file_counts": {
+            "test": 1,
+            "train": 42,
+            "valid": 2
+          },
+          "split_shares": {
+            "test": 0.120172,
+            "train": 0.781116,
+            "valid": 0.098712
+          },
+          "splittable": true
+        },
+        "ethereum/go-ethereum": {
+          "files": 219,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 0.000123,
+            "train": 0.000246,
+            "valid": 0.000123
+          },
+          "reason": null,
+          "samples": 1628,
+          "split_counts": {
+            "test": 163,
+            "train": 1302,
+            "valid": 163
+          },
+          "split_file_counts": {
+            "test": 8,
+            "train": 202,
+            "valid": 9
+          },
+          "split_shares": {
+            "test": 0.100123,
+            "train": 0.799754,
+            "valid": 0.100123
+          },
+          "splittable": true
+        },
+        "facebook/create-react-app": {
+          "files": 25,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.000958,
+            "train": 0.007668,
+            "valid": 0.008626
+          },
+          "reason": null,
+          "samples": 313,
+          "split_counts": {
+            "test": 31,
+            "train": 248,
+            "valid": 34
+          },
+          "split_file_counts": {
+            "test": 1,
+            "train": 23,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.099042,
+            "train": 0.792332,
+            "valid": 0.108626
+          },
+          "splittable": true
+        },
+        "facebook/folly": {
+          "files": 85,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 0.000823,
+            "train": 0.000412,
+            "valid": 0.001235
+          },
+          "reason": null,
+          "samples": 486,
+          "split_counts": {
+            "test": 49,
+            "train": 389,
+            "valid": 48
+          },
+          "split_file_counts": {
+            "test": 6,
+            "train": 75,
+            "valid": 4
+          },
+          "split_shares": {
+            "test": 0.100823,
+            "train": 0.800412,
+            "valid": 0.098765
+          },
+          "splittable": true
+        },
+        "facebook/react": {
+          "files": 249,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 9.6e-05,
+            "train": 0.000192,
+            "valid": 9.6e-05
+          },
+          "reason": null,
+          "samples": 1039,
+          "split_counts": {
+            "test": 104,
+            "train": 831,
+            "valid": 104
+          },
+          "split_file_counts": {
+            "test": 6,
+            "train": 236,
+            "valid": 7
+          },
+          "split_shares": {
+            "test": 0.100096,
+            "train": 0.799808,
+            "valid": 0.100096
+          },
+          "splittable": true
+        },
+        "facebookresearch/detectron2": {
+          "files": 67,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 0.0,
+            "train": 0.0,
+            "valid": 0.0
+          },
+          "reason": null,
+          "samples": 270,
+          "split_counts": {
+            "test": 27,
+            "train": 216,
+            "valid": 27
+          },
+          "split_file_counts": {
+            "test": 4,
+            "train": 58,
+            "valid": 5
+          },
+          "split_shares": {
+            "test": 0.1,
+            "train": 0.8,
+            "valid": 0.1
+          },
+          "splittable": true
+        },
+        "files-community/files": {
+          "files": 49,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.004478,
+            "train": 0.001493,
+            "valid": 0.002985
+          },
+          "reason": null,
+          "samples": 134,
+          "split_counts": {
+            "test": 14,
+            "train": 107,
+            "valid": 13
+          },
+          "split_file_counts": {
+            "test": 3,
+            "train": 44,
+            "valid": 2
+          },
+          "split_shares": {
+            "test": 0.104478,
+            "train": 0.798507,
+            "valid": 0.097015
+          },
+          "splittable": true
+        },
+        "freqtrade/freqtrade": {
+          "files": 109,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 0.025,
+            "train": 0.02401,
+            "valid": 0.00099
+          },
+          "reason": null,
+          "samples": 808,
+          "split_counts": {
+            "test": 101,
+            "train": 627,
+            "valid": 80
+          },
+          "split_file_counts": {
+            "test": 1,
+            "train": 105,
+            "valid": 3
+          },
+          "split_shares": {
+            "test": 0.125,
+            "train": 0.77599,
+            "valid": 0.09901
+          },
+          "splittable": true
+        },
+        "geekcomputers/python": {
+          "files": 85,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 0.000394,
+            "train": 0.000787,
+            "valid": 0.000394
+          },
+          "reason": null,
+          "samples": 508,
+          "split_counts": {
+            "test": 51,
+            "train": 406,
+            "valid": 51
+          },
+          "split_file_counts": {
+            "test": 5,
+            "train": 75,
+            "valid": 5
+          },
+          "split_shares": {
+            "test": 0.100394,
+            "train": 0.799213,
+            "valid": 0.100394
+          },
+          "splittable": true
+        },
+        "go-gitea/gitea": {
+          "files": 518,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 3.9e-05,
+            "train": 7.8e-05,
+            "valid": 3.9e-05
+          },
+          "reason": null,
+          "samples": 2549,
+          "split_counts": {
+            "test": 255,
+            "train": 2039,
+            "valid": 255
+          },
+          "split_file_counts": {
+            "test": 16,
+            "train": 491,
+            "valid": 11
+          },
+          "split_shares": {
+            "test": 0.100039,
+            "train": 0.799922,
+            "valid": 0.100039
+          },
+          "splittable": true
+        },
+        "gogs/gogs": {
+          "files": 56,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 0.00099,
+            "train": 0.007921,
+            "valid": 0.008911
+          },
+          "reason": null,
+          "samples": 303,
+          "split_counts": {
+            "test": 30,
+            "train": 240,
+            "valid": 33
+          },
+          "split_file_counts": {
+            "test": 2,
+            "train": 53,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.09901,
+            "train": 0.792079,
+            "valid": 0.108911
+          },
+          "splittable": true
+        },
+        "golang/go": {
+          "files": 74,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 0.000218,
+            "train": 0.000436,
+            "valid": 0.000218
+          },
+          "reason": null,
+          "samples": 459,
+          "split_counts": {
+            "test": 46,
+            "train": 367,
+            "valid": 46
+          },
+          "split_file_counts": {
+            "test": 3,
+            "train": 68,
+            "valid": 3
+          },
+          "split_shares": {
+            "test": 0.100218,
+            "train": 0.799564,
+            "valid": 0.100218
+          },
+          "splittable": true
+        },
+        "google/mediapipe": {
+          "files": 170,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 0.000391,
+            "train": 0.000782,
+            "valid": 0.000391
+          },
+          "reason": null,
+          "samples": 767,
+          "split_counts": {
+            "test": 77,
+            "train": 613,
+            "valid": 77
+          },
+          "split_file_counts": {
+            "test": 6,
+            "train": 157,
+            "valid": 7
+          },
+          "split_shares": {
+            "test": 0.100391,
+            "train": 0.799218,
+            "valid": 0.100391
+          },
+          "splittable": true
+        },
+        "grpc/grpc": {
+          "files": 268,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 8.8e-05,
+            "train": 0.000177,
+            "valid": 8.8e-05
+          },
+          "reason": null,
+          "samples": 1131,
+          "split_counts": {
+            "test": 113,
+            "train": 905,
+            "valid": 113
+          },
+          "split_file_counts": {
+            "test": 10,
+            "train": 248,
+            "valid": 10
+          },
+          "split_shares": {
+            "test": 0.099912,
+            "train": 0.800177,
+            "valid": 0.099912
+          },
+          "splittable": true
+        },
+        "home-assistant/core": {
+          "files": 430,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 5.7e-05,
+            "train": 0.000113,
+            "valid": 5.7e-05
+          },
+          "reason": null,
+          "samples": 1769,
+          "split_counts": {
+            "test": 177,
+            "train": 1415,
+            "valid": 177
+          },
+          "split_file_counts": {
+            "test": 10,
+            "train": 405,
+            "valid": 15
+          },
+          "split_shares": {
+            "test": 0.100057,
+            "train": 0.799887,
+            "valid": 0.100057
+          },
+          "splittable": true
+        },
+        "huggingface/transformers": {
+          "files": 397,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 6.2e-05,
+            "train": 0.000124,
+            "valid": 6.2e-05
+          },
+          "reason": null,
+          "samples": 1609,
+          "split_counts": {
+            "test": 161,
+            "train": 1287,
+            "valid": 161
+          },
+          "split_file_counts": {
+            "test": 10,
+            "train": 376,
+            "valid": 11
+          },
+          "split_shares": {
+            "test": 0.100062,
+            "train": 0.799876,
+            "valid": 0.100062
+          },
+          "splittable": true
+        },
+        "jackett/jackett": {
+          "files": 44,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.0,
+            "train": 0.0,
+            "valid": 0.0
+          },
+          "reason": null,
+          "samples": 360,
+          "split_counts": {
+            "test": 36,
+            "train": 288,
+            "valid": 36
+          },
+          "split_file_counts": {
+            "test": 2,
+            "train": 41,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.1,
+            "train": 0.8,
+            "valid": 0.1
+          },
+          "splittable": true
+        },
+        "jax-ml/jax": {
+          "files": 31,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 0.001796,
+            "train": 0.003593,
+            "valid": 0.001796
+          },
+          "reason": null,
+          "samples": 167,
+          "split_counts": {
+            "test": 17,
+            "train": 133,
+            "valid": 17
+          },
+          "split_file_counts": {
+            "test": 1,
+            "train": 27,
+            "valid": 3
+          },
+          "split_shares": {
+            "test": 0.101796,
+            "train": 0.796407,
+            "valid": 0.101796
+          },
+          "splittable": true
+        },
+        "jeecgboot/JeecgBoot": {
+          "files": 172,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 0.000105,
+            "train": 0.000211,
+            "valid": 0.000105
+          },
+          "reason": null,
+          "samples": 949,
+          "split_counts": {
+            "test": 95,
+            "train": 759,
+            "valid": 95
+          },
+          "split_file_counts": {
+            "test": 7,
+            "train": 158,
+            "valid": 7
+          },
+          "split_shares": {
+            "test": 0.100105,
+            "train": 0.799789,
+            "valid": 0.100105
+          },
+          "splittable": true
+        },
+        "jellyfin/jellyfin": {
+          "files": 213,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.000344,
+            "train": 0.000172,
+            "valid": 0.000515
+          },
+          "reason": null,
+          "samples": 1164,
+          "split_counts": {
+            "test": 116,
+            "train": 931,
+            "valid": 117
+          },
+          "split_file_counts": {
+            "test": 9,
+            "train": 197,
+            "valid": 7
+          },
+          "split_shares": {
+            "test": 0.099656,
+            "train": 0.799828,
+            "valid": 0.100515
+          },
+          "splittable": true
+        },
+        "josefnemec/playnite": {
+          "files": 93,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.005622,
+            "train": 0.004429,
+            "valid": 0.001193
+          },
+          "reason": null,
+          "samples": 587,
+          "split_counts": {
+            "test": 62,
+            "train": 467,
+            "valid": 58
+          },
+          "split_file_counts": {
+            "test": 1,
+            "train": 90,
+            "valid": 2
+          },
+          "split_shares": {
+            "test": 0.105622,
+            "train": 0.795571,
+            "valid": 0.098807
+          },
+          "splittable": true
+        },
+        "juliangarnier/anime": {
+          "files": 22,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.018644,
+            "train": 0.037288,
+            "valid": 0.018644
+          },
+          "reason": null,
+          "samples": 59,
+          "split_counts": {
+            "test": 7,
+            "train": 45,
+            "valid": 7
+          },
+          "split_file_counts": {
+            "test": 1,
+            "train": 20,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.118644,
+            "train": 0.762712,
+            "valid": 0.118644
+          },
+          "splittable": true
+        },
+        "keycloak/keycloak": {
+          "files": 357,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 7.8e-05,
+            "train": 0.000156,
+            "valid": 7.8e-05
+          },
+          "reason": null,
+          "samples": 1281,
+          "split_counts": {
+            "test": 128,
+            "train": 1025,
+            "valid": 128
+          },
+          "split_file_counts": {
+            "test": 10,
+            "train": 340,
+            "valid": 7
+          },
+          "split_shares": {
+            "test": 0.099922,
+            "train": 0.800156,
+            "valid": 0.099922
+          },
+          "splittable": true
+        },
+        "kubernetes/kubernetes": {
+          "files": 458,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 6.7e-05,
+            "train": 0.000134,
+            "valid": 6.7e-05
+          },
+          "reason": null,
+          "samples": 4493,
+          "split_counts": {
+            "test": 449,
+            "train": 3595,
+            "valid": 449
+          },
+          "split_file_counts": {
+            "test": 13,
+            "train": 435,
+            "valid": 10
+          },
+          "split_shares": {
+            "test": 0.099933,
+            "train": 0.800134,
+            "valid": 0.099933
+          },
+          "splittable": true
+        },
+        "mozilla/pdf.js": {
+          "files": 46,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.002597,
+            "train": 0.001299,
+            "valid": 0.003896
+          },
+          "reason": null,
+          "samples": 154,
+          "split_counts": {
+            "test": 15,
+            "train": 123,
+            "valid": 16
+          },
+          "split_file_counts": {
+            "test": 2,
+            "train": 43,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.097403,
+            "train": 0.798701,
+            "valid": 0.103896
+          },
+          "splittable": true
+        },
+        "mrdoob/three.js": {
+          "files": 24,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.001408,
+            "train": 0.011268,
+            "valid": 0.012676
+          },
+          "reason": null,
+          "samples": 71,
+          "split_counts": {
+            "test": 7,
+            "train": 56,
+            "valid": 8
+          },
+          "split_file_counts": {
+            "test": 1,
+            "train": 22,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.098592,
+            "train": 0.788732,
+            "valid": 0.112676
+          },
+          "splittable": true
+        },
+        "netty/netty": {
+          "files": 169,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 0.000169,
+            "train": 0.000338,
+            "valid": 0.000169
+          },
+          "reason": null,
+          "samples": 591,
+          "split_counts": {
+            "test": 59,
+            "train": 473,
+            "valid": 59
+          },
+          "split_file_counts": {
+            "test": 11,
+            "train": 153,
+            "valid": 5
+          },
+          "split_shares": {
+            "test": 0.099831,
+            "train": 0.800338,
+            "valid": 0.099831
+          },
+          "splittable": true
+        },
+        "openapitools/openapi-generator": {
+          "files": 142,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 0.000724,
+            "train": 0.008893,
+            "valid": 0.009617
+          },
+          "reason": null,
+          "samples": 967,
+          "split_counts": {
+            "test": 96,
+            "train": 765,
+            "valid": 106
+          },
+          "split_file_counts": {
+            "test": 8,
+            "train": 133,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.099276,
+            "train": 0.791107,
+            "valid": 0.109617
+          },
+          "splittable": true
+        },
+        "opencv/opencv": {
+          "files": 4,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 0.1,
+            "train": 0.2,
+            "valid": 0.1
+          },
+          "reason": "insufficient_files",
+          "samples": 51,
+          "split_counts": {
+            "test": 0,
+            "train": 51,
+            "valid": 0
+          },
+          "split_file_counts": {
+            "test": 0,
+            "train": 4,
+            "valid": 0
+          },
+          "split_shares": {
+            "test": 0.0,
+            "train": 1.0,
+            "valid": 0.0
+          },
+          "splittable": false
+        },
+        "parcel-bundler/parcel": {
+          "files": 44,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.003093,
+            "train": 0.001031,
+            "valid": 0.002062
+          },
+          "reason": null,
+          "samples": 194,
+          "split_counts": {
+            "test": 20,
+            "train": 155,
+            "valid": 19
+          },
+          "split_file_counts": {
+            "test": 4,
+            "train": 35,
+            "valid": 5
+          },
+          "split_shares": {
+            "test": 0.103093,
+            "train": 0.798969,
+            "valid": 0.097938
+          },
+          "splittable": true
+        },
+        "phaserjs/phaser": {
+          "files": 94,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.000335,
+            "train": 0.000168,
+            "valid": 0.000503
+          },
+          "reason": null,
+          "samples": 1194,
+          "split_counts": {
+            "test": 119,
+            "train": 955,
+            "valid": 120
+          },
+          "split_file_counts": {
+            "test": 13,
+            "train": 73,
+            "valid": 8
+          },
+          "split_shares": {
+            "test": 0.099665,
+            "train": 0.799832,
+            "valid": 0.100503
+          },
+          "splittable": true
+        },
+        "pingcap/tidb": {
+          "files": 285,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 0.000136,
+            "train": 6.8e-05,
+            "valid": 0.000204
+          },
+          "reason": null,
+          "samples": 2934,
+          "split_counts": {
+            "test": 293,
+            "train": 2347,
+            "valid": 294
+          },
+          "split_file_counts": {
+            "test": 13,
+            "train": 258,
+            "valid": 14
+          },
+          "split_shares": {
+            "test": 0.099864,
+            "train": 0.799932,
+            "valid": 0.100204
+          },
+          "splittable": true
+        },
+        "prettier/prettier": {
+          "files": 28,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.002041,
+            "train": 0.004082,
+            "valid": 0.002041
+          },
+          "reason": null,
+          "samples": 98,
+          "split_counts": {
+            "test": 10,
+            "train": 78,
+            "valid": 10
+          },
+          "split_file_counts": {
+            "test": 4,
+            "train": 22,
+            "valid": 2
+          },
+          "split_shares": {
+            "test": 0.102041,
+            "train": 0.795918,
+            "valid": 0.102041
+          },
+          "splittable": true
+        },
+        "prometheus/prometheus": {
+          "files": 71,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 0.000952,
+            "train": 0.0,
+            "valid": 0.000952
+          },
+          "reason": null,
+          "samples": 525,
+          "split_counts": {
+            "test": 53,
+            "train": 420,
+            "valid": 52
+          },
+          "split_file_counts": {
+            "test": 4,
+            "train": 62,
+            "valid": 5
+          },
+          "split_shares": {
+            "test": 0.100952,
+            "train": 0.8,
+            "valid": 0.099048
+          },
+          "splittable": true
+        },
+        "radarr/radarr": {
+          "files": 260,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 9.5e-05,
+            "train": 0.00019,
+            "valid": 9.5e-05
+          },
+          "reason": null,
+          "samples": 1051,
+          "split_counts": {
+            "test": 105,
+            "train": 841,
+            "valid": 105
+          },
+          "split_file_counts": {
+            "test": 9,
+            "train": 240,
+            "valid": 11
+          },
+          "split_shares": {
+            "test": 0.099905,
+            "train": 0.80019,
+            "valid": 0.099905
+          },
+          "splittable": true
+        },
+        "ray-project/ray": {
+          "files": 585,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 0.000135,
+            "train": 6.7e-05,
+            "valid": 0.000202
+          },
+          "reason": null,
+          "samples": 2964,
+          "split_counts": {
+            "test": 296,
+            "train": 2371,
+            "valid": 297
+          },
+          "split_file_counts": {
+            "test": 12,
+            "train": 555,
+            "valid": 18
+          },
+          "split_shares": {
+            "test": 0.099865,
+            "train": 0.799933,
+            "valid": 0.100202
+          },
+          "splittable": true
+        },
+        "scrapy/scrapy": {
+          "files": 50,
+          "language": "python",
+          "ratio_deviation": {
+            "test": 0.002941,
+            "train": 0.001471,
+            "valid": 0.004412
+          },
+          "reason": null,
+          "samples": 136,
+          "split_counts": {
+            "test": 14,
+            "train": 109,
+            "valid": 13
+          },
+          "split_file_counts": {
+            "test": 3,
+            "train": 44,
+            "valid": 3
+          },
+          "split_shares": {
+            "test": 0.102941,
+            "train": 0.801471,
+            "valid": 0.095588
+          },
+          "splittable": true
+        },
+        "sonarr/sonarr": {
+          "files": 279,
+          "language": "csharp",
+          "ratio_deviation": {
+            "test": 0.000162,
+            "train": 0.000325,
+            "valid": 0.000162
+          },
+          "reason": null,
+          "samples": 1232,
+          "split_counts": {
+            "test": 123,
+            "train": 986,
+            "valid": 123
+          },
+          "split_file_counts": {
+            "test": 10,
+            "train": 259,
+            "valid": 10
+          },
+          "split_shares": {
+            "test": 0.099838,
+            "train": 0.800325,
+            "valid": 0.099838
+          },
+          "splittable": true
+        },
+        "spring-projects/spring-framework": {
+          "files": 484,
+          "language": "java",
+          "ratio_deviation": {
+            "test": 5.6e-05,
+            "train": 0.000111,
+            "valid": 5.6e-05
+          },
+          "reason": null,
+          "samples": 1801,
+          "split_counts": {
+            "test": 180,
+            "train": 1441,
+            "valid": 180
+          },
+          "split_file_counts": {
+            "test": 12,
+            "train": 457,
+            "valid": 15
+          },
+          "split_shares": {
+            "test": 0.099944,
+            "train": 0.800111,
+            "valid": 0.099944
+          },
+          "splittable": true
+        },
+        "syncthing/syncthing": {
+          "files": 68,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 0.000971,
+            "train": 0.01165,
+            "valid": 0.012621
+          },
+          "reason": null,
+          "samples": 515,
+          "split_counts": {
+            "test": 51,
+            "train": 406,
+            "valid": 58
+          },
+          "split_file_counts": {
+            "test": 2,
+            "train": 65,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.099029,
+            "train": 0.78835,
+            "valid": 0.112621
+          },
+          "splittable": true
+        },
+        "tesseract-ocr/tesseract": {
+          "files": 1,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 0.1,
+            "train": 0.2,
+            "valid": 0.1
+          },
+          "reason": "insufficient_files",
+          "samples": 4,
+          "split_counts": {
+            "test": 0,
+            "train": 4,
+            "valid": 0
+          },
+          "split_file_counts": {
+            "test": 0,
+            "train": 1,
+            "valid": 0
+          },
+          "split_shares": {
+            "test": 0.0,
+            "train": 1.0,
+            "valid": 0.0
+          },
+          "splittable": false
+        },
+        "traefik/traefik": {
+          "files": 162,
+          "language": "go",
+          "ratio_deviation": {
+            "test": 0.000211,
+            "train": 0.000422,
+            "valid": 0.000211
+          },
+          "reason": null,
+          "samples": 948,
+          "split_counts": {
+            "test": 95,
+            "train": 758,
+            "valid": 95
+          },
+          "split_file_counts": {
+            "test": 7,
+            "train": 143,
+            "valid": 12
+          },
+          "split_shares": {
+            "test": 0.100211,
+            "train": 0.799578,
+            "valid": 0.100211
+          },
+          "splittable": true
+        },
+        "tryghost/ghost": {
+          "files": 84,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.001198,
+            "train": 0.012575,
+            "valid": 0.013772
+          },
+          "reason": null,
+          "samples": 334,
+          "split_counts": {
+            "test": 33,
+            "train": 263,
+            "valid": 38
+          },
+          "split_file_counts": {
+            "test": 4,
+            "train": 79,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.098802,
+            "train": 0.787425,
+            "valid": 0.113772
+          },
+          "splittable": true
+        },
+        "typesense/typesense": {
+          "files": 51,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 0.000181,
+            "train": 0.003267,
+            "valid": 0.003448
+          },
+          "reason": null,
+          "samples": 551,
+          "split_counts": {
+            "test": 55,
+            "train": 439,
+            "valid": 57
+          },
+          "split_file_counts": {
+            "test": 2,
+            "train": 48,
+            "valid": 1
+          },
+          "split_shares": {
+            "test": 0.099819,
+            "train": 0.796733,
+            "valid": 0.103448
+          },
+          "splittable": true
+        },
+        "vesoft-inc/nebula": {
+          "files": 349,
+          "language": "cpp",
+          "ratio_deviation": {
+            "test": 7.5e-05,
+            "train": 0.00015,
+            "valid": 7.5e-05
+          },
+          "reason": null,
+          "samples": 2658,
+          "split_counts": {
+            "test": 266,
+            "train": 2126,
+            "valid": 266
+          },
+          "split_file_counts": {
+            "test": 6,
+            "train": 333,
+            "valid": 10
+          },
+          "split_shares": {
+            "test": 0.100075,
+            "train": 0.79985,
+            "valid": 0.100075
+          },
+          "splittable": true
+        },
+        "webpack/webpack": {
+          "files": 23,
+          "language": "javascript",
+          "ratio_deviation": {
+            "test": 0.002439,
+            "train": 0.004878,
+            "valid": 0.002439
+          },
+          "reason": null,
+          "samples": 123,
+          "split_counts": {
+            "test": 12,
+            "train": 99,
+            "valid": 12
+          },
+          "split_file_counts": {
+            "test": 2,
+            "train": 19,
+            "valid": 2
+          },
+          "split_shares": {
+            "test": 0.097561,
+            "train": 0.804878,
+            "valid": 0.097561
+          },
+          "splittable": true
+        }
+      }
+    },
+    "excluded_non_prod_records": 11327,
+    "filter_rules": {
+      "source_role_equals": "prod"
+    },
+    "generated_at": "2026-04-08T03:15:42+00:00",
+    "group_unit": "file",
+    "input_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned",
+    "input_samples_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/samples.jsonl",
+    "level_weight": 0.3,
+    "manifest_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/splits/manifest.json",
+    "min_files_per_repo": 10,
+    "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/splits",
+    "paths": {
+      "test": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/splits/test.jsonl",
+      "train": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/splits/train.jsonl",
+      "valid": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/splits/valid.jsonl"
+    },
+    "prod_records": 63965,
+    "ratio_tolerance": 0.05,
+    "ratios": {
+      "test": 0.1,
+      "train": 0.8,
+      "valid": 0.1
+    },
+    "seed": "20260408",
+    "size_weight": 0.7,
+    "source_manifest_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/manifest.json",
+    "source_records": 75292,
+    "source_stats_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/stats.json",
+    "stats_path": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned/splits/stats.json",
+    "unsplittable_repos": [
+      {
+        "files": 1,
+        "language": "cpp",
+        "reason": "insufficient_files",
+        "repo_name": "apple/foundationdb",
+        "samples": 15
+      },
+      {
+        "files": 4,
+        "language": "cpp",
+        "reason": "insufficient_files",
+        "repo_name": "opencv/opencv",
+        "samples": 51
+      },
+      {
+        "files": 1,
+        "language": "cpp",
+        "reason": "insufficient_files",
+        "repo_name": "tesseract-ocr/tesseract",
+        "samples": 4
+      }
+    ],
+    "version": "core_dataset_split_v1"
+  }
+}

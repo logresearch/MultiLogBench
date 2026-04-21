@@ -1,0 +1,176 @@
+{
+  "blank_lines_collapsed": 72850,
+  "dataset_name": "core",
+  "escaped_quote_samples": 396,
+  "files": {
+    "samples.jsonl": {
+      "blank_lines_collapsed": 72850,
+      "escaped_quote_samples": 396,
+      "raw_level_anomalies": 2,
+      "records": 75292
+    }
+  },
+  "generated_at": "2026-04-07T10:29:00+00:00",
+  "near_duplicates": {
+    "groups": 6593,
+    "samples_in_groups": 27130,
+    "top_groups": [
+      {
+        "count": 881,
+        "language": "go",
+        "level": "fatal",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 483,
+        "language": "python",
+        "level": "info",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 468,
+        "language": "go",
+        "level": "error",
+        "message_template": "",
+        "vars_count": 0
+      },
+      {
+        "count": 439,
+        "language": "java",
+        "level": "error",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 404,
+        "language": "javascript",
+        "level": "info",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 376,
+        "language": "java",
+        "level": "debug",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 370,
+        "language": "java",
+        "level": "error",
+        "message_template": "e.getMessage()",
+        "vars_count": 2
+      },
+      {
+        "count": 359,
+        "language": "cpp",
+        "level": "info",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 327,
+        "language": "python",
+        "level": "debug",
+        "message_template": "{}",
+        "vars_count": 1
+      },
+      {
+        "count": 304,
+        "language": "go",
+        "level": "debug",
+        "message_template": "",
+        "vars_count": 0
+      }
+    ]
+  },
+  "non_prod": {
+    "count": 11327,
+    "share": 0.150441
+  },
+  "output_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2_cleaned",
+  "processed_sample_files": [
+    "samples.jsonl"
+  ],
+  "raw_level_anomaly_count": 2,
+  "records": 75292,
+  "repo_head_share": {
+    "top_10_repos": [
+      {
+        "count": 5380,
+        "repo_name": "apache/kafka",
+        "share": 0.071455
+      },
+      {
+        "count": 4982,
+        "repo_name": "kubernetes/kubernetes",
+        "share": 0.066169
+      },
+      {
+        "count": 4835,
+        "repo_name": "apache/airflow",
+        "share": 0.064217
+      },
+      {
+        "count": 3686,
+        "repo_name": "vesoft-inc/nebula",
+        "share": 0.048956
+      },
+      {
+        "count": 3285,
+        "repo_name": "ray-project/ray",
+        "share": 0.04363
+      },
+      {
+        "count": 3164,
+        "repo_name": "pingcap/tidb",
+        "share": 0.042023
+      },
+      {
+        "count": 3108,
+        "repo_name": "dbeaver/dbeaver",
+        "share": 0.041279
+      },
+      {
+        "count": 2895,
+        "repo_name": "grpc/grpc",
+        "share": 0.03845
+      },
+      {
+        "count": 2711,
+        "repo_name": "deepfakes/faceswap",
+        "share": 0.036006
+      },
+      {
+        "count": 2579,
+        "repo_name": "go-gitea/gitea",
+        "share": 0.034253
+      }
+    ],
+    "top_repo": {
+      "count": 5380,
+      "repo_name": "apache/kafka",
+      "share": 0.071455
+    }
+  },
+  "source_role_distribution": {
+    "doc": 145,
+    "example": 1557,
+    "prod": 63965,
+    "sample": 209,
+    "test": 9416
+  },
+  "source_root": "/Users/ryan/Research/codex_workspace/multi_lang_logging_empirical/dataset/core/v2",
+  "style_distribution": {
+    "call_wrapped": 1130,
+    "concat": 6303,
+    "literal_only": 22642,
+    "stream": 6140,
+    "template_args": 31437,
+    "unknown": 7640
+  },
+  "version": "dataset_postprocess_v1"
+}
