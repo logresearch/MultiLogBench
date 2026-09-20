@@ -77,6 +77,10 @@ LEVEL_ALIASES = {
 TOKEN_RE = re.compile(
     r"[A-Za-z_][A-Za-z0-9_]*|\d+|==|!=|<=|>=|&&|\|\||::|->|[^\s]",
 )
+CPP_LOG_MACRO_RE = re.compile(
+    r"^\s*((?:ABSL_LOG|[VD]?LOG)"
+    r"(?:_IF_EVERY_N|_EVERY_N|_FIRST_N|_IF)?)\s*\("
+)
 DEFAULT_RUN_GOLD_NAME = "selected_gold.jsonl"
 DEFAULT_RUN_GENERATIONS_NAME = "generations.jsonl"
 DEFAULT_RUN_METRICS_NAME = "metrics.json"
@@ -350,19 +354,39 @@ def tokenize_message(text: str) -> list[str]:
     return TOKEN_RE.findall(text)
 
 
-def extract_framework_anchor(statement: str) -> str | None:
+def extract_framework_anchor(statement: str, language: str | None = None) -> str | None:
+    """Extract the strict lexical receiver or macro anchor.
+
+    Under the strict-anchor taxonomy, member-based logging APIs are represented
+    by the receiver expression before the earliest member-access separator.
+    C++ stream-style logging APIs are represented by their exact leading macro
+    symbol, including conditional and rate-limited variants.
+    """
     text = statement.strip()
     if not text:
         return None
 
-    if "." in text:
-        prefix = text.split(".", 1)[0].strip()
-        return prefix or None
+    # C++ stream payloads commonly contain '.', '->', or '::'. The leading
+    # macro must therefore be recognized before inspecting payload separators.
+    if language == "cpp":
+        macro_match = re.match(r"^\s*([A-Za-z_][A-Za-z0-9_]*)\s*\(", text)
+        if macro_match:
+            return macro_match.group(1)
+    elif language is None:
+        # Preserve useful standalone behavior for known C++ logging macros.
+        macro_match = CPP_LOG_MACRO_RE.match(text)
+        if macro_match:
+            return macro_match.group(1)
 
-    for separator in ("->", "::"):
-        if separator in text:
-            prefix = text.split(separator, 1)[0].strip()
-            return prefix or None
+    separators = [
+        (text.find(separator), separator)
+        for separator in (".", "->", "::")
+        if separator in text
+    ]
+    if separators:
+        position, _ = min(separators)
+        prefix = text[:position].strip()
+        return prefix or None
 
     macro_match = re.match(r"^\s*([A-Za-z_][A-Za-z0-9_]*)\s*\(", text)
     if macro_match:
@@ -1187,8 +1211,10 @@ def score_sample(
         pa = 1.0 if target_line_change_hit else 0.0
     else:
         pa = 1.0 if exact_line_pa_hit(pred.line, gold.line) else 0.0
-    gold_framework = extract_framework_anchor(gold.statement)
-    pred_framework = extract_framework_anchor(pred.statement)
+    gold_framework = extract_framework_anchor(gold.statement, gold.language)
+    # Prediction-only JSONL records do not always repeat the language. The
+    # benchmark language is defined by the matched gold sample.
+    pred_framework = extract_framework_anchor(pred.statement, gold.language)
     fa = 1.0 if gold_framework is not None and pred_framework == gold_framework else 0.0
     la = 1.0 if pred.level is not None and pred.level == gold.level else 0.0
     aod = compute_aod(gold.level, pred.level, level_positions)
@@ -1426,7 +1452,7 @@ def evaluate_predictions(
                 ),
                 "gold": {
                     "line": gold.line,
-                    "framework": extract_framework_anchor(gold.statement),
+                    "framework": extract_framework_anchor(gold.statement, gold.language),
                     "level": gold.level,
                     "message": gold.message,
                     "vars": list(gold.vars),
@@ -1434,7 +1460,11 @@ def evaluate_predictions(
                 },
                 "pred": {
                     "line": None if pred is None else pred.line,
-                    "framework": None if pred is None else extract_framework_anchor(pred.statement),
+                    "framework": (
+                        None
+                        if pred is None
+                        else extract_framework_anchor(pred.statement, gold.language)
+                    ),
                     "level": None if pred is None else pred.level,
                     "message": "" if pred is None else pred.message,
                     "vars": [] if pred is None else list(pred.vars),
@@ -1498,8 +1528,9 @@ def evaluate_predictions(
             ),
             "framework_accuracy_note": (
                 "FA is computed from target_log.statement by comparing the extracted "
-                "framework anchor. The anchor is the substring before the first '.', "
-                "with fallbacks for '->', '::', and macro-like calls."
+                "strict lexical anchor. C++ stream-style logging uses the exact leading "
+                "macro symbol; member-based APIs use the receiver expression before the "
+                "earliest '.', '->', or '::' separator."
             ),
             "message_field_note": (
                 "BLEU-4 and ROUGE-L are computed on target_log.message. In the current "
